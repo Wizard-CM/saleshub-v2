@@ -351,9 +351,6 @@ export const ProductsShowcase = () => {
                   <article
                     key={p.id}
                     id={`product-${p.id}`}
-                    ref={(el) => {
-                      itemRefs.current[i] = el;
-                    }}
                     className="min-h-[78vh] lg:min-h-[82vh] flex flex-col justify-center py-8 lg:py-12"
                   >
                     {/* Mobile inline image */}
